@@ -189,16 +189,9 @@ int MenuPrincipal (void)
 {
 	int opciones;
 
-	printf(" 1)ALTA CLIENTE\n "
-			"2)BAJA CLIENTE\n"
-			" 3)MODIFICAR DATOS CLIENTE\n"
-			" 4)Crear Pedido de Recoleccion\n"
-			" 5)Procesar Residuos\n"
-			" 6)Imprimir Clientes\n"
-			" 7)Imprimir Pedidos Pendientes\n"
-			" 8)Imprimir Pedidos Procesados\n"
-			" 9)Pedidos Pendientes Por Localidad\n "
-			"10)Cantidad de kilos de PP reciclado promedio\n 11)SALIR\n Ingrese una opcion: ");
+	printf(" 1)ALTA CLIENTE\n 2)BAJA CLIENTE\n 3)MODIFICAR DATOS CLIENTE\n 4)Crear Pedido de Recoleccion\n 5)Procesar Residuos\n"
+	" 6)Imprimir Clientes\n 7)Imprimir Pedidos Pendientes\n 8)Imprimir Pedidos Procesados\n"
+	" 9)Pedidos Pendientes Por Localidad\n 10)Cantidad de kilos de Polipropileno Reciclado Promedio por Cliente\n 11)SALIR\n Ingrese una opcion: ");
 
 	scanf("%d",&opciones);
 	return opciones;

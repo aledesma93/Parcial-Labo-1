@@ -37,6 +37,9 @@ void MostrarUnPedido(ePedido unPedido);
 int MostrarListaPedidos(ePedido listaPedidos[],int tamPedidos);
 int BuscarPedido(ePedido listaPedidos[],int tamPedido);
 int ProcesarPedido(ePedido listaPedidos[],int tamPedido, float* acumuladorPP);
+int ImprimirPendientes(eCliente listaClientes[], int tamCliente, ePedido listaPedidos[],int tamPedido);
+int ImprimirCompletados(eCliente listaClientes[], int tamCliente, ePedido listaPedidos[],int tamPedido);
+int contadorPedidosLocalidad(eCliente listaClientes[],int tam);
 
 
 #endif /* PEDIDO_H_ */

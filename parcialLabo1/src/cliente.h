@@ -25,7 +25,6 @@ typedef struct
   char direccion[50];
   char localidad [50];
   int contadorPedidos;
-
   int isEmpty;
 
 }eCliente;
